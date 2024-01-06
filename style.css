@@ -1,0 +1,59 @@
+body{
+    background-color: pink;
+    padding: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.yes{
+    position: relative;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 10px;
+    left: -100px;
+    width: 100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.yes:hover{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.no{
+    border: 3px solid green;
+    position: absolute;
+    background-color: darkred;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.no:hover{
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
